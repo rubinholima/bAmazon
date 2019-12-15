@@ -1,4 +1,4 @@
-#bAmazon
+# bAmazon
 
 bAmazon is a  a command line node app that takes in inquires from user and gives back data its divide in two js files: bamazonCustomer.js and bamazonManager.js and a schema file Mysql: bamazon.sql
 
@@ -7,12 +7,12 @@ bAmazon is a  a command line node app that takes in inquires from user and gives
 In this part of the App we focused on display the previous itens added in a table called products of a database called **bamazon_db**.
 
 * When running **Node.js** with options that is popping up for the Customer or Manager its possible to do the following Actions:
-## Customer
+## Customer Module
 
    * Buying a Product - Customer Module  Screenshot:
         * ![Buy-Product-Customer](Assets/Buy-Product-Customer.gif)
 
-## Manager
+## Manager Module
 
    * Restocking a Product - Manager Module Screenshot:
         * ![Restock-Product-Manager](Assets/Restock-Product-Manager.gif)
