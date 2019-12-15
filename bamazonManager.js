@@ -24,6 +24,7 @@ function displayInventory() {
         if (err) {
             console.log(err)
         };
+        process.stdout.write("\u001b[2J\u001b[0;0H"); // clear the screen and begin at 0 point
         var theDisplayTable = new Table({
             head: ['Item ID', 'Product Name', 'Category', 'Price', 'Quantity'],
             colWidths: [10, 25, 25, 10, 14]
@@ -56,7 +57,7 @@ function inquirerForUpdates() {
             case 'Remove An Existing Product':
                 removeRequest();
                 break;
-            case 'End Of Manangment':
+            case 'Exit':
                 connection.end();
                 break;
         }
